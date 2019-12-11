@@ -15,10 +15,10 @@ if ($conn->connect_error) {
 else 
 echo("database connected");
 
-*/
+
 $sql = "SELECT * FROM rain_guage";
 $result = $conn->query($sql);
-?>
+?>*/
    <body style="background-color:grey;">
 
 <h1>Hello everyone</h1>

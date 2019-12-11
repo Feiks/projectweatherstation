@@ -1,5 +1,5 @@
 
-<?php
+/*<?php
 $servername = "localhost";
 $username = "root";
 $password = "";
@@ -14,7 +14,7 @@ if ($conn->connect_error) {
 else 
 echo("database connected");
 
-
+*/
 $sql = "SELECT * FROM rain_guage";
 $result = $conn->query($sql);
 ?>

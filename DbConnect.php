@@ -3,6 +3,7 @@
 try {
     $conn = new PDO("sqlsrv:server = tcp:digitalstation.database.windows.net,1433; Database = SensorData", "Feliks", "{digital@01}");
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    echo "Connection Established Successfully";
 }
 catch (PDOException $e) {
     print("Error connecting to SQL Server.");

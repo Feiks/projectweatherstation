@@ -2,7 +2,7 @@
 
 //$apikey ""
 //Read the JSON file and stored in a variable
-$data = file_get_contents('video.json'); 
+$data = file_get_contents("video.json"); 
 //Convert JSON string into PHP array format
 $data_array = json_decode($data, true); 
 
